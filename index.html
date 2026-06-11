@@ -1,11 +1,95 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Agro Forte - Sustentabilidade</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+
+    <header>
+        <div class="logo">
+            <h1>🌱 Agro Forte</h1>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#sustentabilidade">Sustentabilidade</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Equilíbrio entre Produção e Meio Ambiente</h2>
+        <p>
+            O futuro do agronegócio depende da união entre produtividade,
+            inovação e preservação dos recursos naturais.
+        </p>
+        <button id="btnSaibaMais">Saiba Mais</button>
+    </section>
+
+    <section id="sobre" class="secao">
+        <h2>Sobre o Agro Forte</h2>
+        <p>
+            O Agro Forte incentiva práticas agrícolas sustentáveis,
+            promovendo o crescimento econômico do campo sem comprometer
+            o meio ambiente.
+        </p>
+    </section>
+
+    <section id="sustentabilidade" class="secao">
+        <h2>Sustentabilidade no Campo</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>💧 Uso Consciente da Água</h3>
+                <p>
+                    Sistemas de irrigação inteligentes reduzem o desperdício
+                    e aumentam a eficiência da produção.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>🌾 Conservação do Solo</h3>
+                <p>
+                    Técnicas como rotação de culturas preservam nutrientes
+                    e evitam erosão.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>☀ Energia Renovável</h3>
+                <p>
+                    A energia solar contribui para uma agricultura mais limpa
+                    e sustentável.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="contato" class="secao">
+        <h2>Contato</h2>
+
+        <form id="formContato">
+            <input type="text" placeholder="Seu nome" required>
+
+            <input type="email" placeholder="Seu e-mail" required>
+
+            <textarea placeholder="Digite sua mensagem" rows="5" required></textarea>
+
+            <button type="submit">Enviar Mensagem</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2026 Agro Forte - Agricultura Sustentável</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
